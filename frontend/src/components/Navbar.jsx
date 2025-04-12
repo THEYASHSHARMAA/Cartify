@@ -11,9 +11,10 @@ import React from "react";
 import { PlusSquareIcon } from "@chakra-ui/icons";
 import { IoMoon } from "react-icons/io5";
 import { LuSun } from "react-icons/lu";
+import { useProductStore } from "../store/product";
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
-
+  // const { products } = useProductStore(); Like in this we use  this  we can use it anywhere
   return (
     <Container maxW={"1140px"} px={4} backgroundColor={"gray.800"}>
       <Flex
