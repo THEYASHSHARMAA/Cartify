@@ -60,7 +60,7 @@ const ProductCard = ({ product }) => {
       _hover={{ transform: "translateY(-5px)", shadow: "xl" }}
     >
       <Image
-        src={product.iamge}
+        src={product.image}
         alt={product.name}
         h={48}
         w="full"
